@@ -27,7 +27,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
             WebDriver driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-            driver.get("https://techproeducation.com");
+            driver.get("https://amazon.com");
         }
         @Test
         public void method3() {

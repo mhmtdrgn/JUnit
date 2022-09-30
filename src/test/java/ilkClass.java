@@ -6,6 +6,6 @@ public class ilkClass {
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://www.techproeducation.com");
+        driver.get("https://www.amazon.com");
     }
 }
